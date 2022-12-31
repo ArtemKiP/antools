@@ -33,6 +33,18 @@ body{
     border: 1px solid #FF6E30;
   }
 }
+.line{
+  border: 0.5px solid rgba(255, 255, 255, 0.15);
+}
 
 @import "header";
 @import "login";
+@import "sign";
+@import "tools";
+@import "popular";
+@import "brands";
+@import "newcomer";
+@import "user";
+@import "become";
+@import "footer";
+@import "swiper";

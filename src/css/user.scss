@@ -1,0 +1,27 @@
+.user{
+  padding-bottom: 250px;
+  &__block{
+    display: flex;
+    column-gap: 57px;
+    align-items: center;
+  }
+  &-text{
+    width: 400px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    color: rgba(255, 255, 255, 0.78);
+    position: relative;
+    &:before{
+      content: '';
+      background: url("../images/user/“.png") center/cover no-repeat;
+      width: 111px;
+      height: 92px;
+      position: absolute;
+      top: -57px;
+      left: -56px;
+
+    }
+  }
+}

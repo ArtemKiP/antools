@@ -1,0 +1,35 @@
+.footer{
+  padding-top: 70px;
+  padding-bottom: 100px;
+&__cards{
+column-gap: 156px;
+  display: flex;
+}
+  &__block{
+    &-copyright{
+      font-weight: 500;
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.9);
+      margin: 25px 0 21px;
+    }
+    &-text{
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 25px;
+      color: rgba(255, 255, 255, 0.55);
+    }
+    &-title{
+      font-weight: 500;
+      font-size: 20px;
+      color: rgba(255, 255, 255, 0.9);
+      margin-bottom: 20px;
+    }
+  }
+  &-item{
+    font-weight: 500;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.55);
+    margin-bottom: 10px ;
+  }
+
+}

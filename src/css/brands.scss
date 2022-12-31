@@ -1,0 +1,20 @@
+.brands{
+  padding-bottom: 200px;
+  &__block{
+    padding: 55px 83px 59px 82px;
+    text-align: center;
+    background: rgba(44, 53, 61, 0.2);
+    backdrop-filter: blur(25px);
+    border-radius: 25px;
+  }
+  &-title{
+    font-weight: 500;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 59px;
+  }
+  &__row{
+    display: flex;
+    column-gap: 107px;
+  }
+}

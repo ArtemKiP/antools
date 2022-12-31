@@ -1,0 +1,43 @@
+.newcomer{
+  padding-bottom: 200px;
+  &__cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 0 200px;
+  }
+  &__left{
+    width: 427px;
+    &-title{
+      font-weight: 500;
+      font-size: 48px;
+      color: rgba(255, 255, 255, 0.9);
+    }
+    &-subtitle{
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 30px;
+      color: rgba(255, 255, 255, 0.55);
+      margin: 30px 0 60px;
+    }
+  }
+  &__right{
+    display: flex;
+    gap: 50px 25px;
+    flex-wrap: wrap;
+    width: 600px;
+
+    &__card{
+      display: flex;
+      flex-direction: column;
+      width: calc(50% - 25px);
+      height: 284px;
+      row-gap: 30px;
+      padding: 28px 21px 28px 22px;
+      border-radius: 15px;
+      &:hover{
+        background: rgba(40, 48, 54, 0.6);
+        backdrop-filter: blur(25px);
+      }
+    }
+  }
+}

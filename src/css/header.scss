@@ -4,6 +4,9 @@
   left: 0;
   width: 100%;
   padding-top: 26px;
+  padding-bottom: 26px;
+  z-index: 3;
+  background: #1E252B;
   &__nav{
     display: flex;
     justify-content: space-between;

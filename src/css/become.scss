@@ -1,0 +1,21 @@
+.become{
+  padding-bottom: 240px;
+  flex-direction: column ;
+  align-items: center;
+  text-align: center;
+display: flex;
+  &-title{
+    font-weight: 500;
+    font-size: 48px;
+    color: rgba(255, 255, 255, 0.9);
+  }
+  &-subtitle{
+    font-weight: 500;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.55);
+    margin: 25px 0 100px;
+  }
+  &-input{
+    width: 75%;
+  }
+}
